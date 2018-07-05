@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 // 根据向上滑动的距离设置头像的大小
                 FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(marginLayoutParams);
                 // 头像最大为45dp，最小为30dp
-                int height = dp2px(45) - y / 3 < dp2px(30) ? dp2px(30) : dp2px(45) - y / 3;
+                int height = dp2px(45) - y / 4< dp2px(30) ? dp2px(30) : dp2px(45) - y / 4;
                 layoutParams.height = height;
                 layoutParams.width = height;
                 ivPortrait.setLayoutParams(layoutParams);
